@@ -1,0 +1,78 @@
+.head {
+    color: white;
+    font-family: Castellar ;       
+    background-color:  deepskyblue  ;
+    max-height: 100px;
+    border-bottom: double;
+}
+
+.foot {
+    color: white;
+    font-family: Arial;
+    background-color: deepskyblue;
+    max-height: 150px;
+    border-top: double;
+}
+
+.headerMenu {
+    color: white;    
+
+}
+
+.WhiteForeground {
+    color: white;
+}
+
+.borde {
+    background-color: gray;
+}
+
+.borde1 {
+    background-color: blue;
+}
+
+.borde2 {
+    background-color: green;
+}
+
+.borde3 {
+    background-color: black;
+}
+
+.LeftMenu {
+    background-color: khaki;
+    border-right: groove ;
+}
+
+.DataGridColor {
+    background-color: bisque ;    
+}
+
+.MainMenu {
+    background-color: red;
+}
+
+.LoginBar {
+    
+    
+}
+    
+.ProductMenu {
+    background-color: lemonchiffon ;    
+}
+
+.ModalSize1 {
+    width: 700px;
+    height: 500px;
+}
+
+.imageSize {
+    height: 40%;
+    width: 40%;
+}
+
+.Centrar{
+    width: 50%;
+    margin: 0 auto;
+}
+
