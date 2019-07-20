@@ -1,11 +1,11 @@
 <?php
 try{
 
-    $con=new PDO ("mysql:host=localhost; dbname=smartHome","root","747Carlos"); 
+    $con=new PDO ("mysql:host=localhost; dbname=smartHome","root",""); 
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   
     $con-> exec("set names utf8");
-    $sql="SELECT * FROM Users WHERE userName= :usuario AND CONTRASEÑA= :password";
+    $sql="SELECT * FROM Users WHERE userName= :usuario AND password= :password";
     
     $resultado=$con->prepare($sql);
  
@@ -29,7 +29,7 @@ try{
     }
     else{
       printf("<script>alert('Error en usuario y/o cotraseña'); </script>"); 
-      header("Refresh: 0.2; URL=http://localhost/bt/principal/index.html");
+      header("Refresh: 0.2; URL=http://localhost:81/index.html");
     }
 }
 catch(Exception $e){ 
