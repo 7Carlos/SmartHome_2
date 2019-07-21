@@ -7,7 +7,16 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/MyOwnStyles.css"/>
     
-        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>        
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>   
+        
+        <script>
+var i;
+
+function cambiar(img){
+img.src="images/Luces_encendido.png"
+} 
+        </script>
+        
     </head>
 
 
@@ -16,6 +25,53 @@
 
     
     <body>
+<div class="container"
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-">
+
+        <aside class="col-xs-2 col-sm-2 col-md-2 col-lg-">
+                    <h4>FOCO HAB. 1</h4>
+                </aside>
+
+</div>
+            <aside class="col-xs-5 col-sm-5 col-md-5 col-lg-">
+    
+                    <div><a href="on1.php"><img src = "../images/Luces_encendido.png" onclick="cambiar(this);"></a></div>
+
+                    </aside>
+
+
+             <aside class="col-xs-5 col-sm-5 col-md-5 col-lg-">
+    
+                    <div><a href="off1.php"><img src = "../images/Luces_apagado.png"></a></div>
+
+                 </aside>
+
+                </div>
+                
+                <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-">   
+
+                 <aside class="col-xs-2 col-sm-2 col-md-2 col-lg-">
+    
+                        <h4>FOCO HAB. 2</h4>
+    
+                        </aside>
+                 <aside class="col-xs-5 col-sm-5 col-md-5 col-lg-">
+    
+                        <div><a href="on1.php"><img src = "images/Luces_encendido.png" onclick="cambiar(this);"></a></div>
+    
+                        </aside>
+    
+    
+                 <aside class="col-xs-5 col-sm-5 col-md-5 col-lg-">
+        
+                        <div><a href="off1.php"><img src = "images/Luces_apagado.png"></a></div>
+    
+                     </aside>
+
+                    </container>
+
 
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/popper.min.js"></script>
