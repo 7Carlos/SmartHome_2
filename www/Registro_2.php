@@ -5,7 +5,7 @@ try{
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   
     $con-> exec("set names utf8");
-    $sql="INSERT INTO InfoUsers VALUES name= :nombre, secondName= :password";
+    $sql="INSERT INTO Users VALUES userName= :usuario AND password= :password";
     
     $resultado=$con->prepare($sql);
  
